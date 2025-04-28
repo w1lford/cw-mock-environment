@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "sourceMap": false,
+        "jsx": "react",
+        "jsxFactory": "tsx",
+        "target": "es5",
+		"moduleResolution": "node",
+        "experimentalDecorators": true,
+        "preserveConstEnums": true,
+		"skipLibCheck": true,
+        //"suppressImplicitAnyIndexErrors": true,
+        "lib": ["dom", "es2017"]
+    },
+    "include": [
+        "map-tool-template/template.tsx",
+        "cw-map-helper.tsx",
+        "cw-mock-data-generator.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

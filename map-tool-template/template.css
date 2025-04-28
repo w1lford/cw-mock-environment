@@ -1,0 +1,20 @@
+.map-tool-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.map-tool-container button,
+.map-tool-container select {
+    width: auto;
+    max-width: fit-content;
+}
+
+.map-tool-container > * {
+    margin: 3px;
+}
+  
+.assets-list {
+    list-style-type: disc;
+}
